@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "cd ../.. && bun --watch apps/server/src/index.ts"
+  },
+  "dependencies": {
+    "@repos/api": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
